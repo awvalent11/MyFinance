@@ -1,0 +1,119 @@
+/* "Index" page */
+
+.banner{ background-color: gold;
+    color:white;
+    margin-top: 75px;
+    text-align: center;
+    padding: 5px;
+
+}
+/*Need a position: fixed; property for a navigation bar*/ 
+
+/* body {
+    dipslay:flex;
+    justify-content: space-between;
+} */
+
+#trimmedBanner{
+    height: 45px;
+}
+
+#homepage {
+    background-image: url(C:\Users\awval\Projects\resources\images\soldier_finance_1.jpg);
+    height:100%;
+}
+
+/* Mortgage Calculator Styles */
+#mortgageCalculator {
+    background-color: gold;
+
+}
+
+form {
+    align-items: center;
+    border-style: groove;
+
+}
+
+/* Crypto page Styles */
+
+#cCC{
+    /* background-image:some kind of crypto background; */
+}
+.cCC {
+    background-color: grey;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align:center;
+}
+
+input {
+    align-self: center;
+}
+
+
+
+
+/*For screens smaller than 480px
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  }*/ 
+
+  /*For screens with greater than 150dpi resolution: making the images sharper
+
+  @media only screen and (min-resolution: 150dpi) {
+  }*/
+
+  /* Display rule sets for smartphones 
+  @media only screen and (min-width:320px) and (max-width:480px), (orientation:portrait){
+
+}*/
+
+
+td{
+    box-sizing: border-box;
+    width: 150px;
+    height:50px;
+    text-align:center;
+    border: 2px solid black;
+    background-color:cadetblue;
+    border-radius: 5%;
+}
+
+a{
+    background-color:cadetblue;
+    border:none;
+}
+
+#dfas_logo{
+    border: 5px solid black;
+    float:right;
+}
+footer{
+    position:fixed;
+    bottom:0px; 
+    width:100%;
+    background-color:black;
+    color:white;
+    text-align: center;
+    vertical-align:middle;
+    height:30px;
+}
+
+
+form {
+    margin:25px 0px;
+}
+ #rank {
+    margin: 25px 0px;
+}
+
+#dependants{
+    margin:15px 0px;
+}
+
+#zipCode{
+    margin:25px 0px;
+} 

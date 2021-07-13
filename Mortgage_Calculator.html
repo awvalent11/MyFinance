@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>MyFinance Mortgage Calculator</title>
+    <link rel="stylesheet" href="./resources/css/myFinance.css">
+</header>
+<body id="mortgageCalculator">
+
+    <form action="/myfinance.js" method="POST">
+        <label for="amountToBorrow">Home Price:</label>
+        <input type="number" id="amountToBorrow" name="amountToBorrow" required="true"><br><br>
+        <label for="FICO">FICO Score:</label>
+        <input type="number" id="FICO" name="FICO"><br><br>
+        <label for="interestRate">Interest Rate:</label>
+        <input type="number" id="interestRate" name="interestRate" required="true"><br><br>
+        <button type="button" onClick="calc();">Calculate</button> <br><br>
+        Monthly Payment: <br /> 
+        <input disabled id="result"/>
+        
+      </form>
+
+    <form>
+        <!-- Some kind of code for output mortgage value and monthly payments associated with input fields -->
+        <!-- You need to specify this is only for 30 year, fixed rate estimations -->
+    </form>
+</body>
+<footer>
+    The boys incorporated
+</footer>
+</html>
+
+
