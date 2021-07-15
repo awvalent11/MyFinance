@@ -7,6 +7,11 @@
     padding: 5px;
 
 }
+
+.linkButtons {
+    background-color:cadetblue; 
+    text-decoration:none;
+}
 /*Need a position: fixed; property for a navigation bar*/ 
 
 /* body {
@@ -38,8 +43,38 @@ form {
 /* Crypto page Styles */
 
 #cCC{
-    /* background-image:some kind of crypto background; */
+    display:grid;
+    grid-template-columns: [first] 10% [line1] 80% [line2] 10% [final];
+    grid-template-rows: [firstrow] 100% [lastrow];
+    background-image:url("C:\Users\awval\Projects\resources\images\soldier_finance_1.jpg"); 
+    /* background-color:lightsalmon ; */
+    z-index: 1;
+    height:100%;  
 }
+
+#mainBody {
+ grid-column-start: line1;
+ grid-column-end: span line2;
+ 
+}
+
+#leftFlank {
+ grid-column-start: first;
+ grid-column-end: line1;
+ background-image: url("C:\Users\awval\Projects\resources\images\soldier_finance_1.jpg");
+ 
+ /*background-color:indigo; */
+}
+
+#rightFlank {
+ grid-column-start: line2;
+ grid-column-end:final;
+
+ /*background-image: url("resources\images\soldier_finance_2.jpg"); 
+ background-color:lemonchiffon; */
+}
+
+
 .cCC {
     background-color: grey;
     font-family: sans-serif;
@@ -100,6 +135,7 @@ footer{
     text-align: center;
     vertical-align:middle;
     height:30px;
+    
 }
 
 
