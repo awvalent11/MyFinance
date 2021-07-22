@@ -6,52 +6,60 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MyFinance</title>
         <link rel="stylesheet" href="./resources/css/myFinance.css">
-        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
-        <script src=myFinanceV.js</script> -->
+        
     </head>
     <body>
         <div class="banner">
-        <h1>MyFinance</h1>
-        <img id="trimmedBanner" src="C:\Users\awval\Projects\resources\images\myPayBanner.PNG" alt="">
+            <h1>MyFinance</h1>
+            <ul id="nav">
+                <li><a href="default.asp">Home</a></li>
+                <li><a href="news.asp">News</a></li>
+                <li><a href="contact.asp">Contact</a></li>
+                <li><a href="about.asp">About</a></li>
+            </ul>
         </div>
 
     <div="personalInfo"> 
     
     </div>
-    <table>
-        <!--Some jQuery code to create a table of buttons? perhaps?
-        $(document).ready(function(){
-            $('.editbtn').click(function(){
-                $(this).html($(this).html() == 'edit' ? 'modify' : 'edit');
-            });
-        });-->
-        <thead>
-            <tr>
-                <td colspan="2">LES HERE</td><td colspan="1">"Open Source MyFinance" </td> <td colspan="1">CAC required functions</td>
-                <!--Some kind of functionality to generate a DA31 directly from LES (pull Leave CR w/o CAC)-->
-                <!-- Some kind of functionality to navigate to a "CAC only section. probably would have to contain LES section"-->
-            </tr>
-            <tr colspan="4">
-                Are you getting all the additional pay are you qualified for?
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>Personal Finance Resources</th>
-                <td ><button><a href="./cryptoCrashCourse.html"  class="linkButton">TSP/Retirement Information</a></button></td> 
-                <td><button><a href="./cryptoCrashCourse.html"  class="linkButton">VA Loan Info</a></button></td> 
-                <td><!--Credit Explained & Mortgage Calculator--> <a href="Mortgage_Calculator.html" class="linkButton">Credit & Mortgage Calculator</a></td> 
-                <td><button><a href="./cryptoCrashCourse.html"  class="linkButton">Military Pay Charts</a></button></td>
-            </tr>
-            <tr>
-                <th>Financial Asset Crash Course</th> 
-                <td><button><a href="./cryptoCrashCourse.html"  class="linkButton">Crypto Crash Course</a></button></td> 
-                <td><button><a href="./assets-diversified.html"  class="linkButton">Asset Classes & Diversification</a></button></button></td>
-                 <td><button><a href="./vehical-finance.html"  class="linkButton">Vehical Finance</a></button></td> 
-                 <td><button><a href="./cryptoCrashCourse.html"  class="linkButton">BAH Calculator</a></button></td>
-            </tr>
-        </tbody>
-    </table>
+
+    <div class="container">
+        <table>
+            <!--Some jQuery code to create a table of buttons? perhaps?
+            $(document).ready(function(){
+                $('.editbtn').click(function(){
+                    $(this).html($(this).html() == 'edit' ? 'modify' : 'edit');
+                });
+            });-->
+            <thead>
+                <tr>
+                    <td colspan="2">LES HERE</td><td colspan="1">"Password-free MyFinance" </td> <td colspan="1">CAC required functions</td>
+                    <!--Some kind of functionality to generate a DA31 directly from LES (pull Leave CR w/o CAC)-->
+                    <!-- Some kind of functionality to navigate to a "CAC only section. probably would have to contain LES section"-->
+                </tr>
+                <tr colspan="4">
+                    <a href="https://www.goarmy.com/benefits/money/special-pay-for-special-duties-and-skills.html">Are you getting all the additional pay are you qualified for?</a>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Personal Finance Resources</th>
+                    <td ><button><a href="./tSPRetirementInfo.html"  class="linkButton">TSP/Retirement Information</a></button></td> 
+                    <td><button><a href="./vALoanInfo.html"  class="linkButton">VA Loan Info</a></button></td> 
+                    <td><!--Credit Explained & Mortgage Calculator--> <a href="Mortgage_Calculator.html" class="linkButton">Credit & Mortgage Calculator</a></td> 
+                    <td><button><a href="./militaryPayCharts.html"  class="linkButton">Military Pay Charts</a></button></td>
+                </tr>
+                <tr>
+                    <th>Financial Asset Crash Course</th> 
+                    <td><button><a href="./cryptoCrashCourse.html"  class="linkButton">Crypto Crash Course</a></button></td> 
+                    <td><button><a href="./assets-diversified.html"  class="linkButton">Asset Classes & Diversification</a></button></button></td>
+                    <td><button><a href="./vehical-finance.html"  class="linkButton">Vehical Finance</a></button></td> 
+                    <td><button><a href="./BAH_calculator.html"  class="linkButton">BAH Calculator</a></button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     <img src="resources\images\dfas_logo.PNG" id="dfas_logo">
     <footer>
         Circle C Montgomery Capital, 2017  LLP; All Rights Reserved 

@@ -6,13 +6,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MyFinance - TSP & Retirement</title>
         <link rel="stylesheet" href="./resources/css/myFinance.css">
-        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
-        <script src=myFinanceV.js</script> -->
+        <script type="text/javascript" src="./myfinance.js"></script>
+
     </head>
     <body>
-<h1>
-    TSP & Retirement Info 
-</h1>
+        <h1>
+            TSP & Retirement Info 
+        </h1>
+        <h2> What is TSP?</h2><br /> 
+        <p>TSP stands for Thrifty Savings Program. It is a Federal Government-sponsored retirement savings and investment program. 
+        It offers the same type of savings and tax benefits that many private corporations offer thier employees under "401(k)" plans.
+        </p> <br /> 
+        <h2>Blended Retirement System</h2> <br /> 
+        <p>If you are a service member of the uniformed services who began servign on or after January 1, 2018, your 
+            service automatically enrolled you in the TSP (or will) once you have served 60 days and 3% of your basic pay is deducted
+            from your paycheck each pay period and deposited in the traditional balance of your TSP account. 
+        </p>
+
+        <!-- Retirement Calculator -->
+        <form action="/myfinance.js" method="POST" id="retirementCalcForm">
+            <div class="retireFormField">
+              <label for="retireAge">Projected Retirement Age:</label>
+              <input type="number" id="retireAge" name="retireAge"><br><br>  
+            </div>
+            <div class="retireFormField"> 
+                <label for="currentAge">Current Age:</label>
+                <input type="number" id="currentAge" name="currentAge"><br><br> 
+            </div>
+            <div class="retireFormField">
+                <label for="yearlyRetirementGoal">Projected Yearly Expenses as a Retiree:</label>
+                <input type="number" id="yearlyRetirementGoal" name="yearlyRetirementGoal" ><br><br>
+            </div>
+            <button type="button" id="calculate">Calculate</button><br><br>
+             Monthly Savings Needed: 
+            <input type="number" id="result" name="result"/>  
+    
+            
+        </form>
+
 
     </body>
 </html>
